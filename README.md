@@ -28,7 +28,7 @@ Example of json body for POST is below:
 	* You can also clone the codebase to base-path if you have GIT installed
 2. Go to the base-path directory 
 	`cd api-test-automation`
-3. Run the  below command with cucumber options as below:
+3. Run the  below command with cucumber options as below:  
         `mvn clean test -Dcucumber.options="src/test/resources --tags @apiTest"`
   
   # Troubleshooting

@@ -30,3 +30,6 @@ Example of json body for POST is below:
 	`cd api-test-automation`
 3. Run the  below command with cucumber options as below:
   `mvn clean test -Dcucumber.options="src/test/resources --tags @apiTest"`
+  
+  # Troubleshooting
+1. If you get any error  while running the start script which says 'COMMAND NOT FOUND' make sure maven is installed properly and maven bin is added to the PATH.
